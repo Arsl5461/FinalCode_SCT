@@ -133,10 +133,10 @@ const Stake: React.FC = () => {
           ''
         ) : (
           <div className="cemetry_cards-11">
-            <CardContent>
-              <Typography style={{ textAlign: 'center', paddingTop:'2rem' }}>Stake possible in</Typography>
+            <div>
+              <Typography style={{ textAlign: 'center' }}>Stake possible in</Typography>
               <ProgressCountdown hideBar={true} base={from} deadline={new Date(to.getTime())} description="Withdraw available in" />
-            </CardContent>
+            </div>
           </div>
         )}
       </Box>

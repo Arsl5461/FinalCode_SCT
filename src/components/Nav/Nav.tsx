@@ -276,7 +276,7 @@ const Nav = () => {
               <div className="dropdown2">
   <button className="dropbtn2">B_subdomain</button>
 
-  <div className="dropdown-content">
+  <div className="dropdown2-content">
     <Link to="/">A_subdomain</Link>
     <Link to="/">B_subdomain</Link>
     <Link to="/">C_subdomain</Link>

@@ -1159,6 +1159,9 @@ margin-top: 1.5rem;
   border:1px solid black;
   border-radius: 25px;
 }
+.top{
+  margin-top: 1rem;
+}
 .btn{
   border-radius: 1rem;
   border-width: 1px;
@@ -1545,16 +1548,6 @@ background-image: url(./assets/img/background1.png);
   position: relative;
   display: inline-block;
 }
-.dropbtn2 {
-  background-color: transparent!important;
-  color:wheat!important;
-  /* background-image: url("./assets/img/wallet.svg") !important; */
-  height: 52px;
-  width: 70%;
-  border: 1px solid #6a0bce !important;
-  border-radius: 15px !important;
-  
-}
 .dropdown2 {
   position: relative;
   display: inline-block;
@@ -1571,6 +1564,14 @@ background-image: url(./assets/img/background1.png);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -1579,12 +1580,20 @@ background-image: url(./assets/img/background1.png);
   text-decoration: none;
   display: block;
 }
+.dropdown2-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
+.dropdown2-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+.dropdown2:hover .dropdown2-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
@@ -1592,4 +1601,13 @@ background-image: url(./assets/img/background1.png);
 
 
 
- 
+.dropbtn2{ 
+  background-color: transparent!important;
+  color:wheat!important;
+ /* background-image: url("./assets/img/wallet.svg") !important;  */
+  height: 52px;
+  width: 70%;
+  border: 1px solid #6a0bce !important;
+  border-radius: 15px !important;
+}
+

@@ -72,10 +72,10 @@ const Harvest: React.FC = () => {
           ''
         ) : (
           <div className='cemetry_cards-11'>
-            <CardContent>
-              <Typography style={{ textAlign: 'center',paddingTop:'1.5rem' }}>Claim possible in</Typography>
+            <div>
+              <Typography style={{ textAlign: 'center' }}>Claim possible in</Typography>
               <ProgressCountdown hideBar={true} base={from} deadline={to} description="Claim available in" />
-            </CardContent>
+            </div>
           </div>
         )}
       </Box>
